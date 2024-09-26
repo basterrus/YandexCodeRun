@@ -19,8 +19,8 @@
 def main():
     nums = list(map(int, input().split()))
     res = 0
-    for i in range(len(nums)):
-        res += nums[i]
+    for num in nums:
+        res += num
     print(res)
 
 
